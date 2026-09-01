@@ -1,0 +1,10 @@
+# https://clangd.llvm.org/config.html
+
+CompileFlags:
+  Add: [
+    -I__FULL_PATH_TO_INCLUDES__,
+    -I__FULL_PATH_TO_INCLUDES__
+  ]
+
+InlayHints:
+  Enabled: false
