@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Debug Editor [gram]",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$GRAM_WORKTREE_ROOT/__PATH_TO_EXECUTABLE__",
+    "args": [],
+    "build": {
+      "label": "CMake: Build [gram]",
+      "command": "cmake",
+      "args": [
+          "--build",
+          "build/build-debug",
+          "--config",
+          "Debug",
+          "--parallel"
+      ]
+    }
+  },
+  {
+    "label": "Debug Game [gram]",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$GRAM_WORKTREE_ROOT/__PATH_TO_EXECUTABLE__",
+    "args": [],
+    "build": {
+      "label": "CMake: Build [gram]",
+      "command": "cmake",
+      "args": [
+          "--build",
+          "build/build-debug",
+          "--config",
+          "Debug",
+          "--parallel"
+      ]
+    }
+  }
+]

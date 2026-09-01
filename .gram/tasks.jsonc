@@ -1,0 +1,11 @@
+[
+  {
+    "label": "CMake: Configure [gram]",
+    "command": "cmake",
+    "args": [
+        "-S .",
+        "-B build/build-debug",
+        "-DCMAKE_BUILD_TYPE=Debug"
+    ]
+  }
+]
